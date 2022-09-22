@@ -1,0 +1,40 @@
+{
+  "name": "axios-abort",
+  "version": "1.0.0",
+  "description": "Canceling Axios Request Promises with no code changes and zero-configuration 💁",
+  "homepage": "https://github.com/lnquy065/axios-abort",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnquy065/axios-abort.git"
+  },
+  "keywords": [
+    "axios",
+    "http",
+    "request",
+    "response",
+    "abort",
+    "cancel",
+    "abort controller"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "lnquy065",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "axios-mock-adapter": "^1.21.2",
+    "jest": "^29.0.3"
+  },
+  "main": "dist/cjs/axios-abort.js",
+  "module": "dist/mjs/axios-abort.js",
+  "exports": {
+    ".": {
+      "import": "./dist/mjs/axios-abort.js",
+      "require": "./dist/cjs/axios-abort.js"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/lnquy065/axios-abort/issues"
+  }
+}
